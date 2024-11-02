@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: rgb(245, 163, 238);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  margin: auto;
+  background: rgb(253, 239, 239);
+  padding: 40px;
+  border-radius: 35px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.error {
+  color: red;
+  font-size: 1em;
+  margin-top: 35px;
+}
+
+.hidden {
+  display: none;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+input {
+  padding: 5px;
+  margin-top: 20px;
+}
+
+label {
+  padding: 10px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
